@@ -1,0 +1,1710 @@
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 15vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.gradient-text {
+    background-color: white;
+    background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1));
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-2 {
+    background-color: white;
+    background-image: linear-gradient(45deg, #0d9fde, #00ff44);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.btn-grad {
+    background: rgb(98,47,130);
+    background: linear-gradient(90deg, #0d9fde 0%, rgba(58,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    margin: 10px;
+    padding: 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 3vh
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+ @keyframes forward-hover {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(10px, 0);
+    }
+
+    50% {
+        transform: translate((15px, 10px));
+    }
+
+    75% {
+        transform: translate(5px, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+ .forward-hover {
+    animation: forward-hover 4s;
+    transform: rotate(-20deg);
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-div {
+    width: 5.5vw;
+    height: 8vh;
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+}
+
+.logo-img {
+    width: 10vh;
+}
+
+.meet-btn {
+    width: 20vw;
+    height: 8vh;
+    position: relative;
+    left: 70vw;
+    top: 2vh;
+    line-height: 8vh;
+}
+
+.hero-div {
+    position: relative;
+    left: 0vw;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+}
+
+.hero-text-div {
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    top: 0;
+    left: 5vw;
+}
+
+.hero-text {
+    font-size: 15vh;
+}
+
+.hero-img-div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 15vh;
+    left: 15vw;
+    transform: rotate(-20deg)
+}
+
+.hero-img {
+    width: 35vw;
+    position: relative;
+    top: -15vh;
+    left: -5vw
+}
+
+.hero-btn {
+    width: 20vw;
+    height: 8vh;
+    position: relative;
+    left: 5vw;
+    top: 0;
+    line-height: 8vh
+}
+
+.brand-header-div {
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-header-line {
+    width: 25vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 4px;
+    top: 2vh;
+    height: 1vh;
+    background-image: linear-gradient(230deg, #0d9fde, rgba(58,9,121,1));
+}
+
+.brand-header-text-div {
+    position: relative;
+    left: 8vw;
+    top: -8vh;
+}
+
+.brand-header-text {
+    font-size: 5vh;
+    position: absolute;
+}
+
+.brand-main-div {
+    position: relative;
+    left: -0.5vw;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+}
+
+.brand-main-text-div {
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    top: 8vh;
+    left: 10vw;
+}
+
+.brand-main-text {
+    font-size: 8vh;
+    line-height: 10vh;
+}
+
+.brand-main-img-div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 20vh;
+    left: 15vw;
+    transform: rotate(-20deg);
+}
+
+.brand-main-img {
+    width: 25vw;
+    position: relative;
+    top: -28vh
+}
+
+.traffic-header-div {
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.traffic-header-line {
+    width: 25vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 4px;
+    top: 2vh;
+    height: 1vh;
+    background-image: linear-gradient(230deg, #0d9fde, rgba(58,9,121,1));
+}
+
+.traffic-header-text-div {
+    position: relative;
+    left: 8vw;
+    top: -8vh;
+}
+
+.traffic-header-text {
+    font-size: 5vh;
+    position: absolute;
+}
+
+.traffic-main-div {
+    position: relative;
+    left: -0.5vw;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: -10vh;
+}
+
+.traffic-main-text-div {
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    top: 8vh;
+    left: 10vw;
+}
+
+.traffic-main-text {
+    font-size: 8vh;
+    line-height: 10vh
+}
+
+.traffic-main-img-div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 20vh;
+    left: 15vw;
+    transform: rotate(-20deg)
+}
+
+.traffic-coin-img {
+    width: 25vw;
+    position: relative;
+    top: -28vh;
+    left: -10vw
+}
+
+.traffic-chart-img {
+    width: 25vw;
+    position: relative;
+    top: -58vh;
+    left: 15vw;
+}
+
+.cred-header-main-div {
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    top: -10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cred-header-line {
+    width: 25vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 4px;
+    top: 2vh;
+    height: 1vh;
+    background-image: linear-gradient(230deg, #0d9fde, rgba(58,9,121,1));
+}
+
+.cred-header-text-div {
+    position: relative;
+    left: 8vw;
+    top: -8vh
+}
+
+.cred-header-text {
+    font-size: 5vh;
+    position: absolute;
+}
+
+.cred-main-div {
+    position: relative;
+    left: -0.5vw;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: -20vh
+}
+
+.cred-main-text-div {
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    top: 8vh;
+    left: 10vw;
+}
+
+.cred-main-text {
+    font-size: 8vh;
+    line-height: 10vh
+}
+
+.cred-main-img-div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 20vh;
+    left: 15vw;
+    transform: rotate(-20deg)
+}
+
+.cred-main-img {
+    width: 25vw;
+    position: relative;
+    top: -20vh;
+    left: 1vw;
+}
+
+.final-main-div {
+    position: relative;
+    left: -0.5vw;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: -5vh;
+}
+
+.final-text-div {
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    top: 0;
+    left: 5vw;
+}
+
+.final-text {
+    font-size: 15vh;
+}
+
+.final-img-div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 15vh;
+    left: 15vw;
+    transform: rotate(-20deg)
+}
+
+.final-img {
+    width: 35vw;
+    position: relative;
+    top: -30vh;
+    left: 0
+}
+
+.final-btn {
+    width: 20vw;
+    height: 8vh;
+    position: relative;
+    left: 5vw;
+    top: -15vh;
+    line-height: 8vh
+}
+
+.meeting-btn {
+    width: 20vw;
+    height: 8vh;
+    position: relative;
+    left: 50vw;
+    top: -35vh;
+    line-height: 8vh
+}
+
+.footer-main-div {
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1));
+    display: flex;
+    flex-direction: row
+}
+
+.footer-name-div {
+    position: relative;
+    left: 5vw;
+}
+
+.footer-name {
+    font-size: 3vh
+}
+
+.footer-city-div {
+    position: relative;
+    left: 70vw;
+}
+
+.footer-city {
+    font-size: 2vh;
+    line-height: 17vh
+}
+
+@media screen and (max-width: 1037px) {
+    .hero-div {
+        flex-direction: column;
+    }
+
+    .header {
+        left: 2vw
+    }
+
+    .logo-img {
+        width: 15vw;
+    }
+    .hero-text-div {
+        width: 80vw;
+        left: 8vw
+    }
+
+    .hero-text {
+        font-size: 10vh;
+        line-height: 12vh;
+        text-align: center;
+    }
+
+    .hero-img-div {
+        width: 0
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 10vh;
+    }
+    
+    .meet-btn {
+        width: 40vw;
+        height: 5vh;
+        left: 40vw;
+        font-size: 2vh;
+        line-height: 5vh;
+        top: 1.5vh;
+    }
+
+    .brand-main-text-div {
+        width: 85vw;
+        height: 40vh;
+        left: 5vw
+    }
+
+    .brand-main-text, .traffic-main-text, .cred-main-text {
+        font-size: 5vh;
+        line-height: 8vh
+    }
+
+    .brand-header-line, .traffic-header-line {
+        width: 35vw
+    }
+
+    .brand-header-div {
+        top: 20vh
+    }
+
+    .brand-main-div {
+        top: 10vh;
+        flex-direction: column;
+    }
+
+    .brand-main-img-div {
+        left: 85vw;
+        top: 22vh
+    }
+
+    .traffic-main-text-div {
+        width: 95vw;
+    }
+
+    .traffic-coin-img {
+        top: -6vh;
+        left: -8vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -20vw;
+    }
+
+    .cred-header-line {
+        width: 15vw;
+    }
+
+    .cred-main-text-div {
+        width: 85vw
+    }
+
+    .cred-main-img-div {
+        top: 50vh;
+        left: 25vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-main-div {
+        height: 30vh
+    }
+
+    .final-text-div {
+        width: 90vw;
+        left: 15vw;
+        top: -10vh
+    }
+
+    .final-text {
+        font-size: 10vh;
+        line-height: 12vh;
+        text-align: center;
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 22vw;
+        top: -15vh
+    }
+
+    .footer-main-div {
+        flex-direction: column;
+    }
+
+    .footer-city {
+        line-height: 2vh
+    }
+
+    .footer-city-div {
+        left: 5vw;
+        top: -8vh
+    }
+}
+
+@media screen and (width: 834px) and (height: 1194px) {
+    .meet-btn {
+        top: 3vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -10vh
+    }
+
+    .hero-text {
+        font-size: 16vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 7vh
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -3vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -12vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+
+    .final-main-div {
+        top: -40vh
+    }
+    
+    .final-btn {
+        top: -20vh
+    }
+}
+
+@media screen and (width: 810px) and (height: 1080px) {
+    .meet-btn {
+        top: 3vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -10vh
+    }
+
+    .hero-text {
+        font-size: 16vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 7vh
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -3vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -12vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+
+    .final-main-div {
+        top: -40vh
+    }
+    
+    .final-btn {
+        top: -20vh
+    }
+}
+
+@media screen and (width: 744px) and (height: 1133px) {
+    .meet-btn {
+        top: 3vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 7vh
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -3vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -12vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+
+    .final-main-div {
+        top: -40vh
+    }
+    
+    .final-btn {
+        top: -20vh
+    }
+}
+
+@media screen and (width: 360px) and (height: 800px) {
+    .meet-btn {
+        top: 1vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -6vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 14vh
+    }
+
+    .brand-main-img-div {
+        top: 24vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -3vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 8vh
+    }
+
+    .cred-main-img-div {
+        top: 34vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -12vh
+    }
+
+    .final-main-div {
+        top: -30vh
+    }
+
+    .final-text {
+        font-size: 12vh;
+        line-height: 12vh
+    }
+    
+    .final-btn {
+        top: -10vh
+    }
+}
+
+@media screen and (width: 360px) and (height: 640px) {
+    .meet-btn {
+        top: 2vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 7vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -3vw
+    }
+
+    .traffic-chart-img {
+        top: -10vh;
+        left: -12vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh;
+    }
+
+    .final-main-div {
+        top: -45vh
+    }
+    
+    .final-btn {
+        top: -10vh
+    }
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 10vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -9vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -10vh
+    }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 10vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -9vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 320px) and (height: 568px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 10vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -9vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 375px) and (height: 812px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 20vh;
+        left: 92vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 30vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+        left: -10vw
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 430px) and (height: 932px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 20vh;
+        left: 92vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 30vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+        left: -10vw
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 428px) and (height: 926px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 20vh;
+        left: 92vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 30vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+        left: -10vw
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 393px) and (height: 852px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 20vh;
+        left: 92vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 30vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+        left: -10vw
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 390px) and (height: 844px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 14vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 20vh;
+        left: 92vw
+    }
+
+    .traffic-coin-img {
+        top: -10vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: 0;
+        left: -18vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 30vh;
+        left: 24vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+        left: -10vw
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 1440px) and (height: 960px) {
+    .brand-main-img-div {
+        left: 20vw;
+        top: 30vh
+    }
+
+    .traffic-coin-img {
+        left: -10vw;
+        top: -18vh;
+    }
+
+    .traffic-chart-img {
+        left: 13vw;
+        top: -43vh
+    }
+
+    .final-main-div {
+        top: -20vh;
+        left: 4vw
+    }
+
+    .final-img-div {
+        top: 20vh
+    }
+
+    .final-btn {
+        top: -30vh;
+        left: 8vw
+    }
+}
+
+@media screen and (width: 960px) and (height: 1440px) {
+    .meet-btn {
+        top: 1.5vh;
+        left: 42vw
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        height: 90vh;
+        left: 6vw;
+        top: -8vh
+    }
+
+    .hero-text {
+        font-size: 13vh;
+        line-height: 17vh
+    }
+
+    .hero-btn {
+        top: 12vh
+    }
+
+    .brand-main-img-div {
+        top: 10vh;
+        left: 90vw
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: -1vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -9vw
+    }
+
+    .traffic-main-text-div {
+        left: 5vw
+    }
+
+    .cred-main-text-div {
+        left: 5vw;
+        top: 0
+    }
+
+    .cred-main-img-div {
+        top: 20vh;
+        left: 15vw
+    }
+
+    .cred-header-main-div {
+        top: -20vh
+    }
+
+    .final-main-div {
+        top: -40vh;
+    }
+
+    .final-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+    
+    .final-btn {
+        top: -10vh
+    }
+}
+
+@media screen and (width: 1024px) and (height: 1366px) {
+    .meet-btn {
+        top: 3vh
+    }
+
+    .hero-text-div {
+        width: 85vw;
+        top: -6vh
+    }
+
+    .hero-text {
+        font-size: 15vh;
+        line-height: 15vh
+    }
+
+    .hero-btn {
+        top: 8vh; 
+        left: 24vw
+    }
+
+    .brand-main-img-div {
+        top: 6vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-div {
+        top: -20vh; 
+        left: -6vw
+    }
+
+    .traffic-coin-img {
+        top: -15vh;
+        left: 3vw
+    }
+
+    .traffic-chart-img {
+        top: -15vh;
+        left: -6vw
+    }
+
+    .cred-header-main-div {
+        top: -30vh
+    }
+
+    .cred-main-text-div {
+        top: -12vh;
+        left: 4vw
+    }
+
+    .cred-main-img-div {
+        top: 10vh;
+        left: 16vw
+    }
+
+    .final-text-div {
+        top: -60vh
+    }
+
+    .final-text {
+        font-size: 18vh;
+        line-height: 18vh
+    }
+
+    .final-btn {
+        top: -8vh
+    }
+}
+
+@media screen and (width: 1366px) and (height: 1024px) {
+    .hero-btn {
+        top: -14vh;
+        left: 60vw
+    }
+
+    .brand-main-img-div {
+        left: 30vw;
+        top: 30vh
+    }
+
+    .traffic-coin-img {
+        left: -4vw;
+        top: -15vh;
+    }
+
+    .traffic-chart-img {
+        left: 16vw;
+        top: -38vh
+    }
+
+    .cred-main-img-div {
+        left: 24vw
+    }
+
+    .final-main-div {
+        top: -30vh;
+        left: 5vw
+    }
+
+    .final-img-div {
+        top: 30vh
+    }
+
+    .final-btn {
+        top: -30vh;
+        left: 10vw
+    }
+}
