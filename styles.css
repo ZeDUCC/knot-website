@@ -457,1254 +457,1611 @@ html {
     line-height: 17vh
 }
 
-@media screen and (max-width: 1037px) {
-    .hero-div {
-        flex-direction: column;
-    }
-
-    .header {
-        left: 2vw
-    }
-
-    .logo-img {
-        width: 15vw;
-    }
+@media (max-aspect-ratio: 0.596) and (min-aspect-ratio: 0.570) {
     .hero-text-div {
-        width: 80vw;
-        left: 8vw
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
     }
-
     .hero-text {
-        font-size: 10vh;
-        line-height: 12vh;
+        font-size: 12vh;
+        line-height: 13vh;
         text-align: center;
     }
 
-    .hero-img-div {
-        width: 0
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 11vh
     }
 
     .hero-img {
         width: 0
     }
 
-    .hero-btn {
-        width: 50vw;
-        left: 20vw;
-        top: 10vh;
-    }
-    
     .meet-btn {
         width: 40vw;
-        height: 5vh;
-        left: 40vw;
-        font-size: 2vh;
-        line-height: 5vh;
-        top: 1.5vh;
-    }
-
-    .brand-main-text-div {
-        width: 85vw;
-        height: 40vh;
-        left: 5vw
-    }
-
-    .brand-main-text, .traffic-main-text, .cred-main-text {
-        font-size: 5vh;
-        line-height: 8vh
-    }
-
-    .brand-header-line, .traffic-header-line {
-        width: 35vw
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
     }
 
     .brand-header-div {
-        top: 20vh
+        top: 15vh
     }
 
+    .brand-header-line {
+        width: 30vw
+    }
     .brand-main-div {
-        top: 10vh;
-        flex-direction: column;
-    }
-
-    .brand-main-img-div {
-        left: 85vw;
-        top: 22vh
-    }
-
-    .traffic-main-text-div {
-        width: 95vw;
-    }
-
-    .traffic-coin-img {
-        top: -6vh;
-        left: -8vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -20vw;
-    }
-
-    .cred-header-line {
-        width: 15vw;
-    }
-
-    .cred-main-text-div {
-        width: 85vw
-    }
-
-    .cred-main-img-div {
-        top: 50vh;
-        left: 25vw
-    }
-
-    .final-img {
-        width: 0
-    }
-
-    .final-main-div {
-        height: 30vh
-    }
-
-    .final-text-div {
-        width: 90vw;
-        left: 15vw;
-        top: -10vh
-    }
-
-    .final-text {
-        font-size: 10vh;
-        line-height: 12vh;
-        text-align: center;
-    }
-
-    .final-btn {
-        width: 50vw;
-        left: 22vw;
-        top: -15vh
-    }
-
-    .footer-main-div {
-        flex-direction: column;
-    }
-
-    .footer-city {
-        line-height: 2vh
-    }
-
-    .footer-city-div {
-        left: 5vw;
-        top: -8vh
-    }
-}
-
-@media screen and (width: 834px) and (height: 1194px) {
-    .meet-btn {
-        top: 3vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -10vh
-    }
-
-    .hero-text {
-        font-size: 16vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 7vh
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -3vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -12vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-
-    .final-main-div {
-        top: -40vh
-    }
-    
-    .final-btn {
-        top: -20vh
-    }
-}
-
-@media screen and (width: 810px) and (height: 1080px) {
-    .meet-btn {
-        top: 3vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -10vh
-    }
-
-    .hero-text {
-        font-size: 16vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 7vh
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -3vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -12vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-
-    .final-main-div {
-        top: -40vh
-    }
-    
-    .final-btn {
-        top: -20vh
-    }
-}
-
-@media screen and (width: 744px) and (height: 1133px) {
-    .meet-btn {
-        top: 3vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 7vh
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -3vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -12vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-
-    .final-main-div {
-        top: -40vh
-    }
-    
-    .final-btn {
-        top: -20vh
-    }
-}
-
-@media screen and (width: 360px) and (height: 800px) {
-    .meet-btn {
-        top: 1vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -6vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 14vh
-    }
-
-    .brand-main-img-div {
-        top: 24vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -3vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 8vh
-    }
-
-    .cred-main-img-div {
-        top: 34vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -12vh
-    }
-
-    .final-main-div {
-        top: -30vh
-    }
-
-    .final-text {
-        font-size: 12vh;
-        line-height: 12vh
-    }
-    
-    .final-btn {
-        top: -10vh
-    }
-}
-
-@media screen and (width: 360px) and (height: 640px) {
-    .meet-btn {
-        top: 2vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 7vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -3vw
-    }
-
-    .traffic-chart-img {
-        top: -10vh;
-        left: -12vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh;
-    }
-
-    .final-main-div {
-        top: -45vh
-    }
-    
-    .final-btn {
-        top: -10vh
-    }
-}
-
-@media screen and (width: 375px) and (height: 667px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 10vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -9vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -10vh
-    }
-}
-
-@media screen and (width: 414px) and (height: 736px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 10vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -9vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 320px) and (height: 568px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 10vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -9vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 375px) and (height: 812px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 20vh;
-        left: 92vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 30vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-        left: -10vw
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 430px) and (height: 932px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 20vh;
-        left: 92vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 30vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-        left: -10vw
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 428px) and (height: 926px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 20vh;
-        left: 92vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 30vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-        left: -10vw
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 393px) and (height: 852px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 20vh;
-        left: 92vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 30vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-        left: -10vw
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 390px) and (height: 844px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 14vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 20vh;
-        left: 92vw
-    }
-
-    .traffic-coin-img {
-        top: -10vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: 0;
-        left: -18vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 30vh;
-        left: 24vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-        left: -10vw
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -8vh
-    }
-}
-
-@media screen and (width: 1440px) and (height: 960px) {
-    .brand-main-img-div {
-        left: 20vw;
-        top: 30vh
-    }
-
-    .traffic-coin-img {
-        left: -10vw;
-        top: -18vh;
-    }
-
-    .traffic-chart-img {
-        left: 13vw;
-        top: -43vh
-    }
-
-    .final-main-div {
-        top: -20vh;
-        left: 4vw
-    }
-
-    .final-img-div {
-        top: 20vh
-    }
-
-    .final-btn {
-        top: -30vh;
-        left: 8vw
-    }
-}
-
-@media screen and (width: 960px) and (height: 1440px) {
-    .meet-btn {
-        top: 1.5vh;
-        left: 42vw
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        height: 90vh;
-        left: 6vw;
-        top: -8vh
-    }
-
-    .hero-text {
-        font-size: 13vh;
-        line-height: 17vh
-    }
-
-    .hero-btn {
-        top: 12vh
-    }
-
-    .brand-main-img-div {
-        top: 10vh;
-        left: 90vw
-    }
-
-    .traffic-coin-img {
-        top: -15vh;
-        left: -1vw
-    }
-
-    .traffic-chart-img {
-        top: -15vh;
-        left: -9vw
-    }
-
-    .traffic-main-text-div {
-        left: 5vw
-    }
-
-    .cred-main-text-div {
-        left: 5vw;
-        top: 0
-    }
-
-    .cred-main-img-div {
-        top: 20vh;
-        left: 15vw
-    }
-
-    .cred-header-main-div {
-        top: -20vh
-    }
-
-    .final-main-div {
-        top: -40vh;
-    }
-
-    .final-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-    
-    .final-btn {
-        top: -10vh
-    }
-}
-
-@media screen and (width: 1024px) and (height: 1366px) {
-    .meet-btn {
-        top: 3vh
-    }
-
-    .hero-text-div {
-        width: 85vw;
-        top: -6vh
-    }
-
-    .hero-text {
-        font-size: 15vh;
-        line-height: 15vh
-    }
-
-    .hero-btn {
-        top: 8vh; 
-        left: 24vw
-    }
-
-    .brand-main-img-div {
         top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 50vh
     }
 
     .traffic-header-div {
         top: -10vh
     }
 
-    .traffic-main-div {
-        top: -20vh; 
-        left: -6vw
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
     }
 
-    .traffic-coin-img {
-        top: -15vh;
-        left: 3vw
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
     }
 
     .traffic-chart-img {
-        top: -15vh;
+        top: -20vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: 0
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 15vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 15vh;
+        line-height: 17vh
+    }
+
+    .final-text-div {
+        top: -50vh;
+        left: 13vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -30vh
+    }
+}
+
+@media (max-aspect-ratio: 0.685) and (min-aspect-ratio: 0.670) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -2vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 11vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -6vh
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 12vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -50vh;
+        left: 13vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -24vh
+    }
+}
+
+@media (max-aspect-ratio: 0.810) and (min-aspect-ratio: 0.690) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 8vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -4vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 24vw;
+        top: -30vh
+    }
+}
+
+@media (max-aspect-ratio: 1.22) and (min-aspect-ratio: 0.990) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 8vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -4vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 24vw;
+        top: -30vh
+    }
+}
+
+@media (max-aspect-ratio: 1.700) and (min-aspect-ratio: 1.430) {
+    .hero-text-div {
+        width: 50vw;
+        left: 4vw;
+        top: 0
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 20vw;
+        left: 18vw;
+        top: 2vh
+    }
+
+    .hero-img {
+        width: 30vw
+    }
+
+    .hero-img-div {
+        left: 20vw
+    }
+
+    .meet-btn {
+        width: 20vw;
+        left: 70vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+
+    .brand-main-div {
+        top: 6vh
+    }
+
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+    }
+
+    .brand-main-img-div {
+        top: 36vh;
+        left: 4vw
+    }
+
+    .traffic-header-div {
+        top: 0
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 10vh
+    }
+
+    .traffic-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -56vh;
+        left: -26vw
+    }
+
+    .traffic-coin-img {
+        top: -8vh;
         left: -6vw
     }
 
     .cred-header-main-div {
-        top: -30vh
+        top: -16vh
     }
 
     .cred-main-text-div {
-        top: -12vh;
-        left: 4vw
+        width: 70vw;
+        left: 5vw;
+        height: 30vh;
+        top: 4vh
     }
 
+    .cred-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+        top: 0
+    }
+    
     .cred-main-img-div {
-        top: 10vh;
-        left: 16vw
+        top: 24vh;
+        left: 6vw
     }
 
-    .final-text-div {
-        top: -60vh
+    .final-img {
+        width: 0
     }
 
     .final-text {
-        font-size: 18vh;
-        line-height: 18vh
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -20vh;
+        left: 18vw;
+        width: 80vw
     }
 
     .final-btn {
-        top: -8vh
+        width: 20vw;
+        left: 40vw;
+        top: -30vh
+    }
+
+    .footer-city-div {
+        left: 66vw
     }
 }
 
-@media screen and (width: 1366px) and (height: 1024px) {
+@media (max-aspect-ratio: 2.23) and (min-aspect-ratio: 2.000) {
+    .hero-text-div {
+        width: 40vw;
+        left: 4vw;
+        top: 0
+    }
+    .hero-text {
+        font-size: 15vh;
+        line-height: 17vh;
+        text-align: center;
+    }
+
     .hero-btn {
-        top: -14vh;
-        left: 60vw
+        width: 20vw;
+        left: 12vw;
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 4vh;
+        top: 3vh
     }
 
-    .brand-main-img-div {
-        left: 30vw;
-        top: 30vh
+    .hero-img {
+        width: 30vw
     }
 
-    .traffic-coin-img {
-        left: -4vw;
-        top: -15vh;
-    }
-
-    .traffic-chart-img {
-        left: 16vw;
-        top: -38vh
-    }
-
-    .cred-main-img-div {
+    .hero-img-div {
         left: 24vw
     }
 
-    .final-main-div {
-        top: -30vh;
+    .meet-btn {
+        width: 20vw;
+        height: 10vh;
+        line-height: 10vh;
+        left: 70vw;
+        font-size: 4vh;
+        top: 0
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+
+    .brand-main-div {
+        top: 6vh
+    }
+
+    .brand-main-text-div {
+        width: 80vw;
         left: 5vw
     }
 
-    .final-img-div {
-        top: 30vh
+    .brand-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+    }
+
+    .brand-main-img-div {
+        top: 30vh;
+        left: -4vw
+    }
+
+    .traffic-header-div {
+        top: 10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 10vh
+    }
+
+    .traffic-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+    }
+
+    .traffic-main-div {
+        top: -2vh
+    }
+
+    .traffic-chart-img {
+        top: -90vh;
+        left: -32vw
+    }
+
+    .traffic-coin-img {
+        top: -20vh;
+        left: -10vw
+    }
+
+    .cred-header-main-div {
+        top: 0
+    }
+
+    .cred-main-div {
+        top: -4vh
+    }
+
+    .cred-main-text-div {
+        width: 40vw;
+        left: 5vw;
+        height: 30vh;
+        top: 4vh
+    }
+
+    .cred-main-text {
+        font-size: 10vh;
+        line-height: 12vh;
+        top: 0
+    }
+    
+    .cred-main-img-div {
+        top: 16vh;
+        left: 20vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 19vh;
+        line-height: 21vh
+    }
+
+    .final-text-div {
+        top: -4vh;
+        left: 18vw;
+        width: 80vw
     }
 
     .final-btn {
+        width: 20vw;
+        height: 10vh;
+        font-size: 4vh;
+        line-height: 10vh;
+        left: 40vw;
+        top: -12vh
+    }
+
+    .footer-city-div {
+        left: 66vw;
+        top: -1vh
+    }
+
+    .footer-name {
+        font-size: 4vh
+    }
+
+    .footer-city {
+        font-size: 3vh;
+    }
+}
+
+@media screen and ((width: 375px) and (height: 635px)) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 12vh;
+        line-height: 13vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 11vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 50vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -20vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: 0
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh;
+        left: 20vw
+    }
+
+    .final-text-div {
+        width: 100vw;
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 15vh;
+        line-height: 17vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 13vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -40vh
+    }
+}
+
+@media screen and ((width: 393px) and (height: 660px)) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 12vh;
+        line-height: 13vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 11vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 50vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -20vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: 0
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh;
+        left: 20vw
+    }
+
+    .final-text-div {
+        width: 100vw;
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 15vh;
+        line-height: 17vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 13vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -45vh
+    }
+}
+
+@media (width: 375px) and (height: 548px) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -2vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 11vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
         top: -30vh;
-        left: 10vw
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -6vh
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 12vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 13vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -34vh
+    }
+}
+
+@media screen and (width: 1024px) and (height: 1292px) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 8vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -4vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -50vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 24vw;
+        top: -40vh
+    }
+}
+
+@media screen and (width: 834px) and (height: 1042px) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: 8vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -4vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -50vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 24vw;
+        top: -40vh
+    }
+}
+
+@media screen and (width: 768px) and (height: 954px) {
+    .hero-text-div {
+        width: 105vw;
+        left: 12vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 13vh;
+        line-height: 15vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw;
+        top: -8vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 40vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -30vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -4vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 10vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 17vh;
+        line-height: 19vh
+    }
+
+    .final-text-div {
+        top: -50vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 50vw;
+        left: 24vw;
+        top: -40vh
     }
 }
