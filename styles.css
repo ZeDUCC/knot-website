@@ -457,7 +457,7 @@ html {
     line-height: 17vh
 }
 
-@media (max-aspect-ratio: 0.596) and (min-aspect-ratio: 0.570) {
+@media (min-aspect-ratio: 0.570) and (max-aspect-ratio: 0.596) {
     .hero-text-div {
         width: 105vw;
         left: 12vw;
@@ -856,15 +856,15 @@ html {
         top: -5vh
     }
     .hero-text {
-        font-size: 13vh;
-        line-height: 15vh;
+        font-size: 15vh;
+        line-height: 17vh;
         text-align: center;
     }
 
     .hero-btn {
-        width: 50vw;
-        left: 20vw;
-        top: 8vh
+        width: 33vw;
+        left: 30vw;
+        top: -2vh
     }
 
     .hero-img {
@@ -872,8 +872,8 @@ html {
     }
 
     .meet-btn {
-        width: 40vw;
-        left: 45vw;
+        width: 20vw;
+        left: 68vw;
         font-size: 2.5vh;
         top: 1vh
     }
@@ -899,7 +899,7 @@ html {
     }
 
     .brand-main-img-div {
-        top: 40vh
+        top: 32vh
     }
 
     .traffic-header-div {
@@ -922,12 +922,12 @@ html {
     }
 
     .traffic-chart-img {
-        top: -30vh;
+        top: -60vh;
         left: -35vw
     }
 
     .traffic-coin-img {
-        top: -4vh;
+        top: -20vh;
         left: -4vw
     }
 
@@ -951,7 +951,7 @@ html {
     }
     
     .cred-main-img-div {
-        top: 10vh
+        top: 4vh
     }
 
     .final-text-div {
@@ -964,8 +964,8 @@ html {
 
     .final-text {
         text-align: center;
-        font-size: 17vh;
-        line-height: 19vh
+        font-size: 19vh;
+        line-height: 21vh
     }
 
     .final-text-div {
@@ -975,9 +975,9 @@ html {
     }
 
     .final-btn {
-        width: 50vw;
-        left: 24vw;
-        top: -30vh
+        width: 30vw;
+        left: 32vw;
+        top: -40vh
     }
 }
 
@@ -1540,7 +1540,7 @@ html {
     }
 }
 
-@media (width: 375px) and (height: 548px) {
+@media screen and (width: 375px) and (height: 548px) {
     .hero-text-div {
         width: 105vw;
         left: 12vw;
@@ -2063,5 +2063,147 @@ html {
         width: 50vw;
         left: 24vw;
         top: -40vh
+    }
+}
+
+@media screen and (width: 792px) and (height: 764px) {
+    .hero-text-div {
+        width: 105vw;
+        left: 14vw;
+        top: -5vh
+    }
+    .hero-text {
+        font-size: 15vh;
+        line-height: 17vh;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 30vw;
+        left: 32vw;
+        top: 0
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .meet-btn {
+        width: 40vw;
+        left: 45vw;
+        font-size: 2.5vh;
+        top: 1vh
+    }
+
+    .brand-header-div {
+        top: 15vh
+    }
+
+    .brand-header-line {
+        width: 30vw
+    }
+    .brand-main-div {
+        top: 6vh
+    }
+    .brand-main-text-div {
+        width: 80vw;
+        left: 5vw
+    }
+
+    .brand-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .brand-main-img-div {
+        top: 32vh
+    }
+
+    .traffic-header-div {
+        top: -10vh
+    }
+
+    .traffic-main-text-div {
+        width: 80vw;
+        left: 5vw;
+        top: 0
+    }
+
+    .traffic-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    .traffic-main-div {
+        top: -12vh
+    }
+
+    .traffic-chart-img {
+        top: -50vh;
+        left: -35vw
+    }
+
+    .traffic-coin-img {
+        top: -14vh;
+        left: -4vw
+    }
+
+    .cred-header-main-div {
+        top: -28vh
+    }
+
+    .cred-main-text-div {
+        width: 70vw;
+        left: 5vw;
+    }
+
+    .cred-main-text {
+        font-size: 5vh;
+        line-height: 7vh;
+        top: 0
+    }
+
+    .cred-main-text-div {
+        top: -10vh
+    }
+    
+    .cred-main-img-div {
+        top: 4vh
+    }
+
+    .final-text-div {
+        width: 100vw
+    }
+
+    .final-img {
+        width: 0
+    }
+
+    .final-text {
+        text-align: center;
+        font-size: 19vh;
+        line-height: 21vh
+    }
+
+    .final-text-div {
+        top: -60vh;
+        left: 18vw;
+        width: 80vw
+    }
+
+    .final-btn {
+        width: 30vw;
+        left: 32vw;
+        top: -40vh
+    }
+    
+    .footer-city-div {
+        left: 50vw
+    }
+}
+
+@media screen and (width: 874px) and (height: 760px) {
+    .final-text {
+        font-size: 15vh;
     }
 }
