@@ -457,6 +457,7 @@ html {
     line-height: 17vh
 }
 
+/*
 @media (min-aspect-ratio: 0.570) and (max-aspect-ratio: 0.596) {
     .hero-text-div {
         width: 105vw;
@@ -2202,8 +2203,101 @@ html {
     }
 }
 
-@media screen and (width: 874px) and (height: 760px) {
-    .final-text {
-        font-size: 15vh;
+*/
+
+@media screen and (min-aspect-ratio: 0.400) and (max-aspect-ratio: 0.500) {
+    .meet-btn {
+        width: 40vw;
+        height: 6vh;
+        left: 45vw;
+        font-size: 2vh;
+        line-height: 6vh;
+        top: 2.5vh
+    }
+
+    .hero-img {
+        width: 0
+    }
+
+    .hero-img-div {
+        width: 0
+    }
+
+    .hero-text-div {
+        width: 80vw;
+        left: 8vw
+    }
+
+    .hero-text {
+        font-size: 10vh;
+        text-align: center;
+        line-height: 12vh;
+    }
+
+    .hero-btn {
+        width: 50vw;
+        left: 20vw
+    }
+
+    .brand-main-div {
+        height: 20vh
+    }
+
+    .brand-main-text-div {
+        width: 70vw;
+        left: 6vw;
+        top: 9vh
+    }
+
+    .brand-main-text {
+        font-size: 4vh;
+        line-height: 5vh
+    }
+
+    .traffic-header-div {
+        top: 10vh
+    }
+
+    .traffic-main-div {
+        top: 0;
+        height: 30vh
+    }
+
+    .traffic-main-text {
+        font-size: 4vh;
+        line-height: 5vh;
+    }
+
+    .traffic-main-text-div {
+        width: 70vw;
+        left: 6vw;
+        top: 9vh
+    }
+
+    .cred-header-main-div {
+        top: 0
+    }
+
+    .cred-main-div {
+        top: 0;
+        height: 30vh
+    }
+
+    .cred-main-text-div {
+        top: 0;
+        left: 6vw
+    }
+
+    .cred-main-text {
+        font-size: 4vh;
+        line-height: 5vh;
+    }
+
+    .final-main-div {
+        top: 0
+    }
+
+    .final-text-div {
+        top: 0
     }
 }
