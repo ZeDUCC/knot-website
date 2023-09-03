@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 15vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.gradient-text {
+    background-color: white;
+    background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1));
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-2 {
+    background-color: white;
+    background-image: linear-gradient(45deg, #0d9fde, #00ff44);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.btn-grad {
+    background: rgb(98,47,130);
+    background: linear-gradient(90deg, #0d9fde 0%, rgba(58,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    margin: 1vh;
+    padding: 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 3vh
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+ @keyframes forward-hover {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(10px, 0);
+    }
+
+    50% {
+        transform: translate((15px, 10px));
+    }
+
+    75% {
+        transform: translate(5px, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+ .forward-hover {
+    animation: forward-hover 4s;
+    transform: rotate(-20deg);
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (min-aspect-ratio: 1.01) {
+    .header {
+        width: 100vw;
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .header-img {
+        position: relative;
+        left: 2vw;
+        top: 2vh !important;
+        height: 10vh
+    }
+
+    .header-btn {
+        width: 20vw !important;
+        height: 8vh;
+        line-height: 8vh;
+        font-size: 2vw !important;
+        position: relative;
+        left: 71vw !important;
+        top: 2vh !important
+    }
+
+    .hero-text-div {
+        width: 100vw;
+        height: 50vh !important;
+        position: relative;
+    }
+
+    .hero-text {
+        text-align: center;
+        font-size: 10.5vw !important;
+        margin-left: 15vw !important;
+        margin-right: 15vw !important;
+        margin-top: 3.5vw !important;
+        line-height: 13.143vw !important
+    }
+
+    .hero-btn-div {
+        width: 100vw;
+        height: 38vh !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-btn {
+        width: 30vw !important;
+        height: 12vh;
+        line-height: 12vh;
+        font-size: 2.57vw;
+        position: relative;
+        left: 35vw !important;
+        top: 1vh
+    }
+
+    .hero-start-div {
+        width: 100vw;
+        height: 1vh;
+        position: relative;
+        top: 19vh !important
+    }
+
+    .topic-div {
+        width: 100vw;
+        height: 60vh !important;
+        position: relative; 
+        display: flex;
+        flex-direction: column
+    }
+
+    .topic-header-div {
+        width: 100vw;
+        height: 10vh;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topic-header-line-div {
+        width: 30vw !important;
+        position: relative;
+    }
+
+    .topic-header-line {
+        width: 26vw !important;
+        position: relative;
+        height: 1.5vh;
+        margin-top: 4vh;
+        background-color: white;
+        background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1));
+        margin-left: 2vw;
+        border-radius: 10px
+    }
+
+    .topic-header-title-div {
+        width: 70vw !important;
+        position: relative;
+        display: flex;
+        flex-direction: row
+    }
+
+    .topic-header-title {
+        font-size: 3.428vw;
+        margin-top: -2.5vh;
+        position: relative;
+        left: 2vw
+    }
+
+    .topic-header-img {
+        height: 30vw !important;
+        width: 35vw !important;
+        position: relative;
+        left: 20vw !important
+    }
+
+    .crown-img {
+        height: 30vw !important;
+        width: 35vw !important;
+        position: relative;
+        left: 15vw !important;
+    }
+
+    .topic-main-div {
+        width: 100vw;
+        height: 40vh !important;
+    }
+
+    .topic-main-text {
+        font-size: 5.714vw !important;
+        line-height: 12vh !important;
+        margin-right: 50vw !important;
+        position: relative;
+        left: 6vw !important
+    }
+
+    .final-div {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .final-text {
+        font-size: 10.857vw !important;
+        margin-left: 10vw !important;
+        margin-right: 10vw !important;
+        line-height: 21vh !important;
+        text-align: center;
+        margin-top: 5vh
+    }
+
+    .final-btn {
+        width: 30vw !important;
+        height: 8vh;
+        line-height: 8vh;
+        font-size: 2vw;
+        position: relative;
+        left: 35vw !important;
+        top: 4vh
+    }
+
+    .footer-div {
+        width: 100vw;
+        height: 20vh;
+        background-color: white;
+        background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1));
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-name {
+        font-size: 1.714vw;
+        position: relative;
+        left: 10vw;
+        top: 2vh
+    }
+
+    .footer-city {
+        font-size: 1.143vw;
+        position: relative;
+        left: 74vw !important;
+        top: 2vh
+    }
+}

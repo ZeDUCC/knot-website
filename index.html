@@ -7,97 +7,87 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="new-styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,700&family=Do+Hyeon&family=IBM+Plex+Mono:wght@400;500;600;700&family=Rubik:ital,wght@0,500;0,700;1,600;1,700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <title>KNOT Web</title>
+    <title>mobile test</title>
 </head>
-<body style="background-color: #000a19; overflow-x: hidden;">
-    <div data-aos="fade-in" class="header">
-        <div class="logo-div">
-            <img src="IMG_0038-removebg-preview.png" class="logo-img">
-        </div>
-        <div class="btn-grad meet-btn"><a href="https://calendly.com/webknot" style="text-decoration: none; color: white;" target="_blank">
+<body style="background-color: #000a19; overflow-x: hidden; overflow-y: hidden;">
+    <div class="header" style="width: 100vw; height: 12vh; display: flex; flex-direction: row; position: relative;" data-aos="fade-in">
+        <img class="header-img" src="IMG_0038-removebg-preview.png" style="position: relative; left: 2vw; top: 1vh; height: 10vh">
+        <div class="btn-grad header-btn" style="width: 40vw; height: 8vh; line-height: 8vh; font-size: 2.5vh; position: relative; left: 38vw; top: 1vh"><a href="https://calendly.com/webknot" style="text-decoration: none; color: white;" target="_blank">
             book a meeting
         </a></div>
     </div>
-    <div data-aos="fade-in" class="hero-div">
-        <div class="hero-text-div"><h1 class="gradient-text hero-text"><em>don't get left in the past.</em></h1></div>
-        <div class="hero-img-div">
-            <img src="forward-dynamic-clay.png" class="forward-hover hero-img">
-        </div>
-    </div>
-    <div class="btn-grad hero-btn"><a href="#start" style="text-decoration: none; color: white;">
-        learn more
-    </a></div>
 
-    <div style="width: 100vw; height: 2vh" id="start"></div>
-
-    <!-- BRAND TOPIC -->
-    <div data-aos="fade-right" class="brand-header-div">
-        <div class="brand-header-line"></div>
-        <div class="brand-header-text-div">
-            <h1 class="gradient-text-2 brand-header-text"><em>brand</em></h1>
-        </div>
-    </div>
-    <div data-aos="fade-right" class="brand-main-div">
-        <div class="brand-main-text-div"><h1 class="gradient-text brand-main-text"><em>maintain your<br>image into the<br>future.</em></h1></div>
-        <div class="brand-main-img-div">
-            <img src="clock-dynamic-clay.png" class="forward-hover brand-main-img">
-        </div>
+    <div class="hero-text-div" style="width: 100vw; height: 64vh; position: relative;" data-aos="fade-in">
+        <h1 class="gradient-text hero-text" style="text-align: center; font-size: 13vh; margin: 1vh; line-height: 15vh;"><em>don't get left in the past.</em></h1>
     </div>
 
+    <div class="hero-btn-div" style="width: 100vw; height: 24vh; position: relative; display: flex; flex-direction: column;" data-aos="fade-in">
+        <div class="btn-grad hero-btn" style="width: 50vw; height: 12vh; line-height: 12vh; font-size: 4.5vh; position: relative; left: 25vw; top: 1vh"><a href="#start" style="text-decoration: none; color: white;">
+            learn more
+        </a></div>
 
-    <!-- TRAFFIC TOPIC -->
-    <div data-aos="fade-right" class="traffic-header-div">
-        <div class="traffic-header-line"></div>
-        <div class="traffic-header-text-div">
-            <h1 class="gradient-text-2 traffic-header-text"><em>traffic</em></h1>
-        </div>
+        <div class="hero-start-div" style="width: 100vw; height: 1vh; position: relative; top: 5vh" id="start"></div>
     </div>
-    <div data-aos="fade-right" class="traffic-main-div">
-        <div class="traffic-main-text-div"><h1 class="gradient-text traffic-main-text"><em>convert leads<br>and increase<br>profits.</em></h1></div>
-        <div class="traffic-main-img-div">
-            <img src="dollar-dynamic-clay.png" class="forward-hover traffic-coin-img">
-            <img src="chart-dynamic-clay.png" class="forward-hover traffic-chart-img">
+
+    <div class="topic-div" style="width: 100vw; height: 30vh; position: relative; display: flex; flex-direction: column;" data-aos="fade-right">
+        <div class="topic-header-div" style="width: 100vw; height: 10vh; position: relative; display: flex; flex-direction: row;">
+            <div class="topic-header-line-div" style="width: 40vw; position: relative;">
+                <div class="topic-header-line" style="width: 36vw; position: relative; height: 1.5vh; margin-top: 4vh; background-color: white; background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1)); margin-left: 2vw; border-radius: 10px"></div>
+            </div>
+            <div class="topic-header-title-div" style="width: 60vw; position: relative; display: flex; flex-direction: row;">
+                <h1 class="gradient-text-2 topic-header-title" style="font-size: 6vh; margin-top: -2.5vh; position: relative; left: 2vw"><em>brand</em></h1>
+                <img class="topic-header-img" src="/clock-dynamic-clay.png" style="width: 20vw; position: relative; left: 6vw">
+            </div>
         </div>
-    </div>
-    
-    <!-- CRED TOPIC -->
-    <div data-aos="fade-right" class="cred-header-main-div">
-        <div class="cred-header-line"></div>
-        <div class="cred-header-text-div">
-            <h1 class="gradient-text-2 cred-header-text"><em>credibility</em></h1>
-        </div>
-    </div>
-    <div data-aos="fade-right" class="cred-main-div">
-        <div class="cred-main-text-div"><h1 class="gradient-text cred-main-text"><em>show your customers<br>who's the best.</em></h1></div>
-        <div class="cred-main-img-div">
-            <img src="crown-dynamic-clay.png" class="forward-hover cred-main-img">
+        <div class="topic-main-div" style="width: 100vw; height: 20vh">
+            <h1 class="gradient-text topic-main-text" style="font-size: 5vh; line-height: 8vh; position: relative; left: 2vw"><em>maintain your image into the future.</em></h1>
         </div>
     </div>
 
-    <!-- FINAL TOPIC -->
-    <div data-aos="fade-in" class="final-main-div">
-        <div class="final-text-div"><h1 class="gradient-text final-text"><em>let's get to work.</em></h1></div>
-        <div class="final-img-div">
-            <img src="play-dynamic-clay.png" class="forward-hover final-img">
+    <div class="topic-div" style="width: 100vw; height: 30vh; position: relative; display: flex; flex-direction: column;" data-aos="fade-right">
+        <div class="topic-header-div" style="width: 100vw; height: 10vh; position: relative; display: flex; flex-direction: row;">
+            <div class="topic-header-line-div" style="width: 40vw; position: relative;">
+                <div class="topic-header-line" style="width: 36vw; position: relative; height: 1.5vh; margin-top: 4vh; background-color: white; background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1)); margin-left: 2vw; border-radius: 10px"></div>
+            </div>
+            <div class="topic-header-title-div" style="width: 60vw; position: relative; display: flex; flex-direction: row;">
+                <h1 class="gradient-text-2 topic-header-title" style="font-size: 6vh; margin-top: -2.5vh; position: relative; left: 2vw"><em>traffic</em></h1>
+                <img class="topic-header-img" src="/dollar-dynamic-clay.png" style="width: 20vw; height: 15vw; position: relative; left: 6vw">
+            </div>
+        </div>
+        <div class="topic-main-div" style="width: 100vw; height: 20vh;">
+            <h1 class="gradient-text topic-main-text" style="font-size: 5vh; line-height: 8vh; position: relative; left: 2vw"><em>convert leads and increase profits.</em></h1>
         </div>
     </div>
-    <div class="btn-grad final-btn"><a href="https://calendly.com/webknot" style="text-decoration: none; color: white;" target="_blank">
-        take charge
-    </a></div>
 
-    <!-- FOOTER -->
-    <div class="footer-main-div">
-        <div class="footer-name-div">
-            <h1 class="footer-name">KNOT Web Services</h1>
+    <div class="topic-div" style="width: 100vw; height: 30vh; position: relative; display: flex; flex-direction: column;" data-aos="fade-right">
+        <div class="topic-header-div" style="width: 100vw; height: 10vh; position: relative; display: flex; flex-direction: row;">
+            <div class="topic-header-line-div" style="width: 20vw; position: relative;">
+                <div class="topic-header-line" style="width: 16vw; position: relative; height: 1.5vh; margin-top: 4vh; background-color: white; background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1)); margin-left: 2vw; border-radius: 10px"></div>
+            </div>
+            <div class="topic-header-title-div" style="width: 60vw; position: relative; display: flex; flex-direction: row;">
+                <h1 class="gradient-text-2 topic-header-title" style="font-size: 6vh; margin-top: -2.5vh; position: relative; left: 2vw" ><em>credibility</em></h1>
+                <img class="crown-img" src="/crown-dynamic-clay.png" style="width: 20vw; position: relative; left: 6vw">
+            </div>
         </div>
+        <div class="topic-main-div" style="width: 100vw; height: 20vh;">
+            <h1 class="gradient-text topic-main-text" style="font-size: 5vh; line-height: 8vh; position: relative; left: 2vw;"><em>show your customers who's the best.</em></h1>
+        </div>
+    </div>
 
-        <div class="footer-city-div">
-            <h1 class="footer-city">Toronto, ON</h1>
-        </div>
+    <div class="final-div" style="width: 100vw; height: 70vh; display: flex; flex-direction: column;">
+        <h1 class="gradient-text final-text" style="font-size: 15vh; text-align: center; margin-top: 5vh" data-aos="fade-in"><em>let's get to work.</em></h1>
+        <div data-aos="fade-in" class="btn-grad final-btn" style="width: 50vw; height: 8vh; line-height: 8vh; font-size: 3.5vh; position: relative; left: 25vw; top: 4vh"><a href="https://calendly.com/webknot" style="text-decoration: none; color: white;" target="_blank">
+            take charge
+        </a></div>
+    </div>
+
+    <div class="footer-div" style="width: 100vw; height: 20vh; background-color: white; background-image: linear-gradient(45deg, #0d9fde, rgba(58,9,121,1)); display: flex; flex-direction: row;">
+        <h1 class="footer-name" style="font-size: 3vh; position: relative; left: 10vw; top: 2vh">KNOT Web</h1>
+        <h1 class="footer-city" style="font-size: 2vh; position: relative; left: 44vw; top: 2vh">Toronto, ON</h1>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
