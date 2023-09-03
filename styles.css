@@ -457,7 +457,7 @@ html {
     line-height: 17vh
 }
 
-/*
+
 @media (min-aspect-ratio: 0.570) and (max-aspect-ratio: 0.596) {
     .hero-text-div {
         width: 105vw;
@@ -2203,7 +2203,7 @@ html {
     }
 }
 
-*/
+/*
 
 @media screen and (min-aspect-ratio: 0.400) and (max-aspect-ratio: 0.500) {
     .meet-btn {
@@ -2301,3 +2301,5 @@ html {
         top: 0
     }
 }
+
+*/
