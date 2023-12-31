@@ -1,0 +1,29 @@
+/* html {
+    scroll-snap-type: y mandatory;
+} */
+
+/* div {
+    scroll-snap-align: start;
+} */
+
+/* nav {
+    scroll-snap-align: start;
+} */
+
+.slide-container {
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.slide {
+    scroll-snap-align: start;
+}
+
+.slide-container::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
