@@ -11,84 +11,24 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<body style="background-color: white; overflow-x: hidden">
+<body style="background-color: black; overflow-x: hidden; display: flex; flex-direction: column;">
 
-    <div id="header">
-        <div id="header-text-box">
-            <h1 id="header-text">KNOT</h1>
+    <div id="header-container" style="position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;">
+        <div id="header-text-container" style="width: 25%; height: 100%;">
+            <h1 id="header-text" style="color: white; position: relative; left: 5vw; font-size: 50px; line-height: 10vh; font-family: Bakbak One; top: -5vh;">KNOT</h1>
         </div>
-        <div id="header-link-box">
-            <img id="header-moon" src="icons/moon.png">
-            <img id="header-at" src="icons/at.png">
+        <div id="header-blank" style="width: 65%; height: 100%;"></div>
+        <div id="header-button-container" style="width: 20%; height: 100%; display: flex; flex-direction: row;">
+            <div id="header-at-container" style="width: 50%; height: 100%;">
+                <img id="header-at" style="width: 40%; position: relative; top: 10%; left: 50%; filter: brightness(300%);" src="icons/at.png">
+            </div>
         </div>
     </div>
 
-    <!-- UPPER HERO DIV -->
-    <div id="upper-hero-div">
-        <img id="upper-hero-icon" src="icons/logo.png">
-        <h1 id="upper-hero-text">Brilliant web solutions.<br><span id="upper-hero-text-span">Made just to your liking.</span></h1>
-        <div id="upper-hero-button">
-            <a href="https://calendly.com/knot-web" target="_blank" style="text-decoration: none;"><h1 id="upper-hero-button-text">Let's work.</h1></a>
+    <div id="hero-body" style="position: relative; width: 100vw; height: 85vh; top: 5vh; display: flex; flex-direction: column;">
+        <div id="hero-phones" style="position: relative; height: 100%; width: 80%; left: 10%; overflow: hidden;">
+            <img style="position: relative; width: 100%; height: auto;" src="icons/knot-iphones.jpg">
         </div>
     </div>
-
-    <!-- HERO DIV -->
-    <div id="hero-div">
-        <div id="hero-card-1">
-            <div style="width: 100%; height: 20px; display: flex; flex-direction: row;">
-                <img src="icons/logo.png" style="width: 18px; height: 18px; flex-shrink: 0; position: relative; left: 0.95vw; top: 1.5vh;">
-                <div style="font-family: Bai Jamjuree; font-size: 18px; font-weight: 600; position: relative; top: 1vh; left: 13vw; background: linear-gradient(90deg, #A597FB 0%, #29B795 100%); background-clip: text; -webkit-text-fill-color: transparent;">View project</div>
-            </div>
-            <h1 style="font-family: Bai Jamjuree; font-size: 25px; font-weight: 600; position: relative; top: 10vh; left: 1.5vw">1 soaring business.</h1>
-        </div>
-        <div id="hero-card-2" style="width: 23vw; background-color: #252525; color: white; height: 100%; border-radius: 8px; position: relative; left: 7.165vw; display: flex; flex-direction: column; box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);">
-            <div style="width: 100%; height: 20px; display: flex; flex-direction: row;">
-                <img src="icons/logo.png" style="width: 18px; height: 18px; flex-shrink: 0; position: relative; left: 0.95vw; top: 1.5vh;">
-                <div style="font-family: Bai Jamjuree; font-size: 18px; font-weight: 600; position: relative; top: 1vh; left: 13vw; background: linear-gradient(90deg, #A597FB 0%, #29B795 100%); background-clip: text; -webkit-text-fill-color: transparent;">View project</div>
-            </div>
-            <h1 style="font-family: Bai Jamjuree; font-size: 25px; font-weight: 600; position: relative; top: 10vh; left: 1.5vw">2 agile organizations.</h1>
-        </div>
-        <div style="width: 23vw; background-color: #252525; color: white; height: 100%; border-radius: 8px; position: relative; left: 14.33vw; display: flex; flex-direction: column; box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);">
-            <div style="width: 100%; height: 20px; display: flex; flex-direction: row;">
-                <img src="icons/logo.png" style="width: 18px; height: 18px; flex-shrink: 0; position: relative; left: 0.95vw; top: 1.5vh;">
-                <div style="font-family: Bai Jamjuree; font-size: 18px; font-weight: 600; position: relative; top: 1vh; left: 13vw; background: linear-gradient(90deg, #A597FB 0%, #29B795 100%); background-clip: text; -webkit-text-fill-color: transparent;">View project</div>
-            </div>
-            <h1 style="font-family: Bai Jamjuree; font-size: 25px; font-weight: 600; position: relative; top: 10vh; left: 1.5vw">3 satisfied clients.</h1>
-        </div>
-    </div>
-
-    <!-- SUPPORTING DIV -->
-    <div style="position: relative; top: 25vh; left: 8.33vw; width: 1199.952px; height: 85vh; display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 50vw">
-            <div style="width: 100%; height: 59%; flex-shrink: 0; border-radius: 8px; background: linear-gradient(286deg, #614AEF 5.66%, #7ECBF6 99.55%); box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); display: flex; flex-direction: column">
-                <img src="icons/logo.png" style="width: 33px; height: 33px; flex-shrink: 0; position: relative; left: 2vh; top: 2vh">
-                <h1 style="position: relative; top: 25vh; left: 4vh; font-family: Bai Jamjuree; color: white; font-weight: 600; font-size: 55px; line-height: 0.75">Why choose us?<br><span style="font-weight: 300; font-size: 25px">Let us show you.</span></h1>
-            </div>
-            <div style="position: relative; top: 2.5vh; display: flex; flex-direction: row;">
-                <div style="position: relative; width: 31%; height: 100%; flex-shrink: 0; border-radius: 8px; background: #252525; box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); display: flex; flex-direction: column">
-                    <img src="icons/logo.png" style="width: 15px; height: 15px; flex-shrink: 0; position: relative; top: 1vh; left: 1vh;">
-                    <img src="icons/lightning.png" style="width: 32px; height: 32px; flex-shrink: 0; position: relative; top: 2.5vh; left: 14vh; transform: rotate(20deg)">
-                    <img src="icons/clock.png" style="width: 112px; height: 112px; position: relative; left: 7vh;">
-                    <h1 style="font-family: Bai Jamjuree; font-weight: 600; font-size: 20px; color: white; position: relative; left: 2vh;">Express delivery.</h1>
-                </div>
-                <div style="position: relative; left: 1.4vw; width: 66%; height: 26.660975609756097vh; flex-shrink: 0; border-radius: 8px; background: #252525; box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); display: flex; flex-direction: column">
-                    <img src="icons/logo.png" style="width: 15px; height: 15px; flex-shrink: 0; position: relative; top: 1vh; left: 1vh;">
-                    <div style="width: 100%; height: 60%; display: flex; flex-direction: row; position: relative; top: 2vh; left: 6vw;">
-                        <img src="icons/chart.png" style="width: 30%; height: 100%; position: relative;">
-                        <img src="icons/rocket.png" style="width: 30%; height: 100%; position: relative;">
-                    </div>
-                    <h1 style="font-family: Bai Jamjuree; font-weight: 600; font-size: 20px; color: white; position: relative; left: 2vh; top: 1.5vh;">More money in your pocket long-term.</h1>
-                </div>
-            </div>
-        </div>
-        <div style="position: relative; left: 1.4vw; width: 31.75vw; height: 93.3%; flex-shrink: 0; border-radius: 8px; background: #252525; box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); display: flex; flex-direction: column">
-            <img src="icons/logo.png" style="width: 33px; height: 33px; flex-shrink: 0; position: relative; left: 2vh; top: 2vh">
-            <img src="icons/map.png" style="width: 494px; height: 494px; flex-shrink: 0; position: relative; left: -2.5vh; top: 3vh;">
-            <h1 style="font-family: Bai Jamjuree; font-size: 30px; color: white; font-weight: 600; position: relative; left: 2vh;">Expanded reach and client<br>acquisition strategy.</h1>
-        </div>
-    </div>
-
-    <!-- DUMMY -->
-    <div style="position: relative; top: 20vh; left: 8.33vw; width: 1199.952px; height: 10vh; background-color: white;"></div>
 </body>
 </html>
