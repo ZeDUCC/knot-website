@@ -13,6 +13,8 @@
 </head>
 <body style="background-color: black; overflow-x: hidden; display: flex; flex-direction: column;">
 
+    <script src="index.js"></script>
+
     <div id="header-container" style="position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;">
         <div id="header-text-container" style="width: 25%; height: 100%;">
             <h1 id="header-text" style="color: white; position: relative; left: 5vw; font-size: 50px; line-height: 10vh; font-family: Bakbak One; top: -5vh;">KNOT</h1>
@@ -25,9 +27,37 @@
         </div>
     </div>
 
-    <div id="hero-body" style="position: relative; width: 100vw; height: 85vh; top: 5vh; display: flex; flex-direction: column;">
-        <div id="hero-phones" style="position: relative; height: 100%; width: 80%; left: 10%; overflow: hidden;">
-            <img style="position: relative; width: 100%; height: auto;" src="icons/knot-iphones.jpg">
+    <div id="hero-body" style="position: relative; width: 100vw; height: 95vh; top: 5vh; display: flex; flex-direction: column;  overflow: hidden;">
+        <div id="hero-phones" style="position: relative; height: 100%; width: 80%; left: 10%;">
+            <img class="anim-up" style="position: relative; width: 100%; height: auto;" src="icons/knot-iphones.jpg">
+        </div>
+
+        <!-- <div id="supporting-container" style="position: relative; width: 100vw; height: 100vh; top: 10vh; display: flex; flex-direction: row; ">
+            <div id="left-container" style="position: relative; width: 40%; height: 100%; display: flex; flex-direction: column;"> 
+                <div id="ipad-1-container" style="position: relative; width: 100%; height: 80%;">
+                    <img src="icons/knot-ipad.png" style="position: relative; top: 16vh; left: 2vw; width: 90%; transform: rotate(90deg);">
+                </div>
+            </div>
+            <div id="right-container" style="position: relative; width: 60%; height: 100%; display: flex; flex-direction: column;">
+                <div id="point-2-ipad-container" style="position: relative; width: 100%; height: 80%;">
+                    <img src="icons/knot-ipad.png" style="position: relative; width: 90%; top: 3vh; left: 3vw;">
+                </div>
+            </div>
+        </div> -->
+    </div>\
+
+    <div id="supporting-container" style="position: relative; width: 100vw; height: 100vh; top: 10vh; display: flex; flex-direction: row; ">
+        <div id="left-container" style="position: relative; width: 40%; height: 100%; display: flex; flex-direction: column;"> 
+            <div id="point-1-text-container" style="position: relative; width: 100%; height: 20%; background-color: aquamarine;"></div>
+            <div id="ipad-1-container" style="position: relative; width: 100%; height: 80%;">
+                <img class="anim" src="icons/knot-ipad.png" style="position: relative; top: 16vh; left: 2vw; width: 90%; transform: rotate(90deg);">
+            </div>
+        </div>
+        <div id="right-container" style="position: relative; width: 60%; height: 100%; display: flex; flex-direction: column;">
+            <div  id="ipad-2-container" style="position: relative; width: 100%; height: 80%;">
+                <img class="anim2" src="icons/knot-ipad.png" style="position: relative; width: 90%; top: 3vh; left: 3vw;">
+            </div>
+            <div id="point-2-text-container" style="position: relative; width: 100%; height: 20%; background-color: slateblue;"></div>
         </div>
     </div>
 </body>
