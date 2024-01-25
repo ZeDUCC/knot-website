@@ -53,3 +53,25 @@ h1 {
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
 }
+
+@keyframes anim-text {
+    from {
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to {
+        opacity: 0.2;
+        transform: translateY(0px);
+    }
+}
+
+.anim-text {
+    animation: anim-text 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+}
+
+/* TAGS */
+
+
+/* MEDIA QUERIES */
