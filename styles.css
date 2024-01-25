@@ -1,3 +1,5 @@
+/* BASE STYLES/CLASSES #region */
+
 h1 {
     font-family: Bai Jamjuree
 }
@@ -44,7 +46,7 @@ h1 {
     }
     to {
         opacity: 0;
-        transform: translateY(-600px);
+        transform: translateY(600px);
     }
 }
 
@@ -70,6 +72,8 @@ h1 {
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
 }
+
+/* #endregion */
 
 /* TAGS #region */
 
@@ -102,7 +106,7 @@ h1 {
 }
 
 #hero-body {
-    position: relative; width: 100vw; height: 95vh; top: 5vh; display: flex; flex-direction: column;  overflow: hidden;
+    position: relative; width: 100vw; height: 95vh; top: 5vh; display: flex; flex-direction: column;  overflow: hidden; background: rgb(0,0,0);
 }
 
 #hero-phones-container {
@@ -171,7 +175,7 @@ h1 {
 
 /* #endregion */
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES #region */
 
 @media screen and (max-width: 500px) {
     #header-container {
@@ -215,7 +219,7 @@ h1 {
     }
     
     #supporting-container {
-        position: relative; width: 100vw; height: 70vh; top: 20vh; display: flex; flex-direction: row;
+        position: relative; width: 100vw; height: 70vh; top: 10vh; display: flex; flex-direction: row;
     }
     
     #left-container {
@@ -286,3 +290,5 @@ h1 {
         animation: none;
     }
 }
+
+/* #endregion */
