@@ -177,7 +177,7 @@ h1 {
 
 /* MEDIA QUERIES #region */
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) and (min-width: 376px) {
     #header-container {
         position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
         
@@ -291,4 +291,231 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    #header-container {
+        position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
+        
+    }
+    #header-text-container {
+        width: 25%; height: 100%;
+    }
+    
+    #header-text {
+        color: white; position: relative; left: 5vw; font-size: 30px; line-height: 10vh; font-family: Bakbak One; top: -5vh;
+    }
+    
+    #header-blank {
+        width: 65%; height: 100%;
+    }
+    
+    #header-button-container {
+        width: 20%; height: 100%; display: flex; flex-direction: row;
+    }
+    
+    #header-at-container {
+        width: 50%; height: 100%;
+    }
+    
+    #header-at {
+        width: 80%; position: relative; top: 10%; left: 20%; filter: brightness(300%);
+    }
+    
+    #hero-body {
+        position: relative; width: 100vw; height: 50vh; top: 2vh; display: flex; flex-direction: column;  overflow: hidden;
+    }
+    
+    #hero-phones-container {
+        position: relative; height: 100%; width: 80%; left: 8%;
+    }
+    
+    #hero-iphones {
+        position: relative; left: -28%; width: 160%; height: auto;
+    }
+    
+    #supporting-container {
+        position: relative; width: 100vw; height: 60vh; top: 5vh; display: flex; flex-direction: row;
+    }
+    
+    #left-container {
+        position: relative; width: 40%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-1-container {
+        position: relative; width: 100%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-1 {
+        position: relative; top: 4vh; left: 2vw; width: 90%;
+    }
+    
+    #supporting-text-1 {
+        position: absolute; width: 70%; top: -4vh; left: 15%; text-align: center; color: white; font-size: 16px; font-weight: 200;
+    }
+    
+    #supporting-text-2 {
+        position: absolute; width: 80%; top: 30vh; left: 10%; text-align: center; color: white; font-size: 14px; font-weight: 200;
+    }
+    
+    #cta-button {
+        position: relative; height: 8vh; width: 80%; top: 16vh; left: 10%; background-color: black; border-radius: 20px; box-shadow: 0 0 20px 1px white;
+    }
+    
+    #cta-text {
+        position: relative; height: 80%; width: 80%; left: 10%; top: 10%; color: white; text-align: center; font-weight: 600; font-size: 16px
+    }
+    
+    #right-container {
+        position: relative; width: 60%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-2-container {
+        position: relative; width: 100%; height: 28%;
+    }
+    
+    #ipad-2 {
+        position: relative; width: 90%; top: 1vh; left: 3vw;
+    }
+    
+    #supporting-text-3 {
+        position: absolute; text-align: center; color: white; font-size: 15px; font-weight: 200; top: 25vh; left: 9vw;
+    }
+    
+    #macbook-container {
+        position: relative; width: 100%; height: 48%;
+    }
+    
+    #macbook {
+        position: relative; left: 4vw; width: 85%; top: 85%;
+    }
+
+    .anim {
+        animation: none;
+    }
+    
+    .anim-text {
+        animation: none;
+    }
+
+    .anim-up {
+        animation: none;
+    }
+
+    .anim2 {
+        animation: none;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #header-container {
+        position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
+        
+    }
+    #header-text-container {
+        width: 25%; height: 100%;
+    }
+    
+    #header-text {
+        color: white; position: relative; left: 5vw; font-size: 30px; line-height: 10vh; font-family: Bakbak One; top: -5vh;
+    }
+    
+    #header-blank {
+        width: 65%; height: 100%;
+    }
+    
+    #header-button-container {
+        width: 20%; height: 100%; display: flex; flex-direction: row;
+    }
+    
+    #header-at-container {
+        width: 50%; height: 100%;
+    }
+    
+    #header-at {
+        width: 80%; position: relative; top: 10%; left: 20%; filter: brightness(300%);
+    }
+    
+    #hero-body {
+        position: relative; width: 100vw; height: 50vh; top: 2vh; display: flex; flex-direction: column;  overflow: hidden;
+    }
+    
+    #hero-phones-container {
+        position: relative; height: 100%; width: 80%; left: 8%;
+    }
+    
+    #hero-iphones {
+        position: relative; left: -28%; width: 160%; height: auto;
+    }
+    
+    #supporting-container {
+        position: relative; width: 100vw; height: 60vh; top: 0; display: flex; flex-direction: row;
+    }
+    
+    #left-container {
+        position: relative; width: 40%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-1-container {
+        position: relative; width: 100%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-1 {
+        position: relative; top: 4vh; left: 2vw; width: 90%;
+    }
+    
+    #supporting-text-1 {
+        position: absolute; width: 70%; top: -4vh; left: 15%; text-align: center; color: white; font-size: 16px; font-weight: 200;
+    }
+    
+    #supporting-text-2 {
+        position: absolute; width: 80%; top: 26vh; left: 10%; text-align: center; color: white; font-size: 12px; font-weight: 200;
+    }
+    
+    #cta-button {
+        position: relative; height: 6vh; width: 80%; top: 16vh; left: 10%; background-color: black; border-radius: 12px; box-shadow: 0 0 20px 1px white;
+    }
+    
+    #cta-text {
+        position: relative; height: 80%; width: 80%; left: 10%; top: 10%; color: white; text-align: center; font-weight: 600; font-size: 13px
+    }
+    
+    #right-container {
+        position: relative; width: 60%; height: 80%; display: flex; flex-direction: column;
+    }
+    
+    #ipad-2-container {
+        position: relative; width: 100%; height: 28%;
+    }
+    
+    #ipad-2 {
+        position: relative; width: 90%; top: 1vh; left: 3vw;
+    }
+    
+    #supporting-text-3 {
+        position: absolute; text-align: center; color: white; font-size: 13px; font-weight: 200; top: 25vh; left: 7vw;
+    }
+    
+    #macbook-container {
+        position: relative; width: 100%; height: 48%;
+    }
+    
+    #macbook {
+        position: relative; left: 4vw; width: 85%; top: 85%;
+    }
+
+    .anim {
+        animation: none;
+    }
+    
+    .anim-text {
+        animation: none;
+    }
+
+    .anim-up {
+        animation: none;
+    }
+
+    .anim2 {
+        animation: none;
+    }
+}
 /* #endregion */
