@@ -177,6 +177,7 @@ h1 {
 
 /* MEDIA QUERIES #region */
 
+/* phone L */
 @media only screen and (max-width: 500px) and (min-width: 376px) {
     #header-container {
         position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
@@ -291,6 +292,7 @@ h1 {
     }
 }
 
+/* phone M */
 @media only screen and (max-width: 375px) and (min-width: 321px) {
     #header-container {
         position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
@@ -405,6 +407,7 @@ h1 {
     }
 }
 
+/* phone S */
 @media only screen and (max-width: 320px){
     #header-container {
         position: relative; width: 100vw; height: 10vh; top: 2vh; display: flex; flex-direction: row;
@@ -518,4 +521,5 @@ h1 {
         animation: none;
     }
 }
+
 /* #endregion */
