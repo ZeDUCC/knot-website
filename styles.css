@@ -3,10 +3,10 @@
 @keyframes appear-left {
   0% {
     opacity: 0;
-    transform: translateX(15%);
+    transform: translateX(15px);
   } 50% {
     opacity: 100%;
-    transform: translateX(15%);
+    transform: translateX(15px);
   } 100% {
     opacity: 100%;
     transform: translateX(0);
@@ -33,4 +33,22 @@
 
 #title-1, #title-2 {
   font-family: 'DM Sans', sans-serif;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  } 50% {
+    opacity: 100%;
+    transform: translateX(30px);
+  } 100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+.appear {
+  position: relative;
+  animation: appear 3s ease
 }

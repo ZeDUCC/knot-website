@@ -9,36 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KNOT Web Development</title>
 </head>
-<body style="background-color: black; overflow: hidden">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="margin-right: 77%">
-                <img src="../assets/logo-no-bg.png" alt="Bootstrap" width="95" height="75">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <button class="btn btn-light" style="margin-right: 2%">contact</button>
-          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <button class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  pricing
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
+<body style="background-color: black; overflow-x: hidden">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logo-no-bg.png" alt="Bootstrap" width="50" height="40">
+        </a>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#cModal">
+          contact
+        </button>
+      </div>
     </nav>
+    
     <div style="background-image: linear-gradient(50deg, hsl(240deg 100% 20%) 1%, hsl(225deg 100% 24%) 25%, hsl(218deg 100% 27%) 36%, hsl(213deg 100% 28%) 44%, hsl(207deg 100% 29%) 51%,hsl(201deg 100% 28%) 58%,hsl(195deg 100% 28%) 64%, hsl(187deg 100% 27%) 72%, hsl(180deg 100% 26%) 80%, hsl(173deg 79% 31%) 100%); height: 88vh">
       <div style="height: 22%; position: relative; width: 100%; text-align: center; color: white; font-family: 'DM Sans', sans-serif;">
-        <h1 id="title-1" style="position: relative; top: 40%; left: -15%" class="appear-left">KNOT Web Development</h1>
-        <h1 id="title-2" style="position: relative; left: 14%; top: 5.75%" class="appear-right">: a Toronto web agency</h1>
+        <!-- <h1 id="title-1" style="position: relative; top: 40%; left: -15%" class="appear-left">KNOT Web Development</h1>
+        <h1 id="title-2" style="position: relative; left: 14%; top: 5.75%" class="appear-right">: a Toronto web agency</h1> -->
+        <h1 style="position: relative; top: 40%;"><span style="position: relative;" class="appear">KNOT Web Development</span><span class="appear-right">: a Toronto web agency</span></h1>
       </div>
       <div style="height: 68%; width: 100%; display: flex; flex-direction: row;">
         <div style="position: relative; left: 13%; gap: 4%; display: flex; flex-direction: row;">
@@ -47,7 +34,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Brand recognition 📈</h5>
                   <p class="card-text">Turn clicks into customers with our strong Search Engine Optimization services.</p>
-                  <a href="#" class="btn btn-primary">Acceleration Package</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aModal">
+                    Acceleration Package
+                  </button>
                 </div>
               </div>
               <div class="card text-white bg-dark" style="width: 22%; border-radius: 10px; height: 100%">
@@ -55,7 +44,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Brand image 👌</h5>
                   <p class="card-text">Present your company the best way with our creative designs and intuitive user experiences.</p>
-                  <a href="#" class="btn btn-primary">Web Essentials Package</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#wModal">
+                    Web Essentials Package
+                  </button>
                 </div>
               </div>
               <div class="card text-white bg-dark" style="width: 22%; border-radius: 10px; height: 100%">
@@ -63,9 +54,102 @@
                 <div class="card-body">
                   <h5 class="card-title">Brand reputation 😎</h5>
                   <p class="card-text">Get the best of both worlds and take your company to the top with our most complete bundle.</p>
-                  <a href="#" class="btn btn-primary">All-In-One Package</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#a1Modal">
+                    All-In-One Package
+                  </button>
                 </div>
               </div>
+        </div>
+      </div>
+      <div class="modal fade" id="a1Modal" tabindex="-1" aria-labelledby="a1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-light">
+            <div class="modal-header bg-primary text-light">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">All-In-One Package</h1>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Professional website UI/UX Design</li>
+                <li>Site domain and hosting</li>
+                <li>SEO services: on-page and off-page</li>
+                <li>Up to 5 free update tickets per month, $85 each afterwards</li>
+                <li><span style="font-weight: 800">$550</span> development fee + <span style="font-weight: 800">$440/mo</span> maintenance</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="wModal" tabindex="-1" aria-labelledby="a1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-light">
+            <div class="modal-header bg-primary text-light">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Web Essentials Package</h1>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Professional website UI/UX Design</li>
+                <li>Site domain and hosting</li>
+                <li>In-house graphic design</li>
+                <li>Up to 3 free update tickets per month, $75 each afterwards</li>
+                <li><span style="font-weight: 800">$550</span> development fee + <span style="font-weight: 800">$200/mo</span> maintenance</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="aModal" tabindex="-1" aria-labelledby="a1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-light">
+            <div class="modal-header bg-primary text-light">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Acceleration Package</h1>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Effective search engine optimization</li>
+                <li>On-page and off-page services to give your brand the best reputation</li>
+                <li>Up to 3 free update tickets per month, $50 each afterwards</li>
+                <li><span style="font-weight: 800">$400/month</span></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cModal" tabindex="-1" aria-labelledby="a1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-light">
+            <div class="modal-header bg-light text-dark">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Let's talk!</h1>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
         </div>
       </div>
     </div>
