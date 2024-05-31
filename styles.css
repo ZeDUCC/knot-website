@@ -52,3 +52,10 @@
   position: relative;
   animation: appear 3s ease
 }
+
+@media screen and (max-width: 576px){
+  #main-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
