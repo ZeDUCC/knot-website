@@ -1,5 +1,15 @@
 @import url(//fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap);
 
+.card {
+  width: 22%;
+}
+
+#card-container {
+  left: 13%;
+  position: relative; display: flex; flex-direction: row;
+  gap: 4%;
+}
+
 @keyframes appear-left {
   0% {
     opacity: 0;
@@ -53,9 +63,44 @@
   animation: appear 3s ease
 }
 
+body {
+  background-color: black; overflow-x: hidden; height: 88vh;
+}
+
+#bg-grad {
+  background-image: linear-gradient(50deg, hsl(240deg 100% 20%) 1%, hsl(225deg 100% 24%) 25%, hsl(218deg 100% 27%) 36%, hsl(213deg 100% 28%) 44%, hsl(207deg 100% 29%) 51%,hsl(201deg 100% 28%) 58%,hsl(195deg 100% 28%) 64%, hsl(187deg 100% 27%) 72%, hsl(180deg 100% 26%) 80%, hsl(173deg 79% 31%) 100%);
+  height: 100%
+}
+
+#title-div {
+  height: 22%; position: relative; width: 100%; text-align: center; color: white; font-family: 'DM Sans', sans-serif;
+}
+
 @media screen and (max-width: 768px){
   #main-div {
     display: flex;
     flex-direction: column;
+  }
+
+  #title-div {
+    height: 22%; position: relative; width: 100%; text-align: center; color: white; font-family: 'DM Sans', sans-serif;
+    position: relative;
+    top: 2vh
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  #card-container {
+    left: 12%;
+    flex-direction: column;
+    position: relative;
+    top: 6vh;
+    gap: 6vh
+  }
+
+  body {
+    height: 120%;
   }
 }
