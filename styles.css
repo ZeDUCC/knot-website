@@ -2,12 +2,29 @@
 
 .card {
   width: 22%;
+  border-radius: 10px; height: 100%
 }
 
 #card-container {
   left: 13%;
   position: relative; display: flex; flex-direction: row;
   gap: 4%;
+}
+
+#magnify {
+  border-radius: 10px 10px 0 0; width: 100%
+}
+
+#bulb, #rocket {
+  border-radius: 10px 10px 0 0
+}
+
+#title-text {
+  position: relative; top: 40%;
+}
+
+#main-div {
+  height: 68%; width: 100%; display: flex;
 }
 
 @keyframes appear-left {
@@ -97,10 +114,15 @@ body {
     flex-direction: column;
     position: relative;
     top: 6vh;
-    gap: 6vh
+    gap: 6vh;
+  }
+
+  html {
+    overflow-x: hidden
   }
 
   body {
-    height: 120%;
+    height: 150%;
+    width: 100%;
   }
 }
