@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="form-styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Email Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("kP96pqW97OHETDPFb"); // Replace with your EmailJS public key
+        })();
+    </script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="emailForm" style="font-family: 'DM Sans', system-ui; font-weight: 700">
+            <label for="email">Add your email for <br>updates on<br>speakEZ's launch</label><br>
+            <input type="email" id="email" name="email" value="Email" required><br>
+            <button type="submit">Submit</button>
+        </form> 
+    </div>
+</body>
+</html>
